@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anitw | Anime Dünyana Hoş Geldin</title>
+  <style>
+    /* Arka plan ve genel görünüm */
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-image: url('https://wallpaperaccess.com/full/5272581.jpg'); /* Arka plan anime resmi */
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+    }
+
+    /* Üst kısım (logo ve menü) */
+    header {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 15px 0;
+      position: sticky;
+      top: 0;
+      backdrop-filter: blur(5px);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+      color: #ff4f70;
+      letter-spacing: 2px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #ff4f70;
+    }
+
+    /* Anime kutuları */
+    .anime-list {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 50px;
+      gap: 25px;
+    }
+
+    .anime {
+      background: rgba(0, 0, 0, 0.7);
+      border-radius: 15px;
+      width: 220px;
+      padding: 15px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .anime:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px #ff4f70;
+    }
+
+    .anime img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .anime h3 {
+      margin: 10px 0 0 0;
+      color: #ff4f70;
+    }
+
+    /* Alt bilgi */
+    footer {
+      margin-top: 60px;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.6);
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🌸 Anitw 🌸</h1>
+    <nav>
+      <a href="#">Ana Sayfa</a>
+      <a href="#">Hakkında</a>
+      <a href="#">İletişim</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="anime-list">
+      <div class="anime">
+        <img src="https://cdn.myanimelist.net/images/anime/13/17405.jpg" alt="Naruto">
+        <h3>Naruto</h3>
+      </div>
+
+      <div class="anime">
+        <img src="https://cdn.myanimelist.net/images/anime/1286/99889.jpg" alt="Demon Slayer">
+        <h3>Demon Slayer</h3>
+      </div>
+
+      <div class="anime">
+        <img src="https://cdn.myanimelist.net/images/anime/12/76049.jpg" alt="One Punch Man">
+        <h3>One Punch Man</h3>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Anitw | Anime Dünyası Seninle 🌸
+  </footer>
+</body>
+</html>
