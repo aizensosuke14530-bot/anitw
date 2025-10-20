@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Anitw — Anime Dünyası</title>
+  <meta name="description" content="Anitw — Koyu pastel temalı anime tanıtım sitesi. Naruto, Demon Slayer, One Punch Man örnek sayfaları." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="brand">
+        <div class="logo">Anitw</div>
+        <nav class="nav" role="navigation" aria-label="Ana navigasyon">
+          <a href="index.html">Ana Sayfa</a>
+          <a href="#popular">Popüler</a>
+          <a href="#about">Hakkında</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <h1>Anime Dünyana Hoş Geldin</h1>
+        <p class="lead">Koyu pastel temalı Anitw — favori animelerini keşfet ve sayfalarını aç.</p>
+        <a class="cta" href="#popular">Popüler Animeler</a>
+      </div>
+    </section>
+
+    <section id="popular" class="container grid" aria-label="Popüler animeler">
+      <article class="card">
+        <img src="https://cdn.myanimelist.net/images/anime/13/17405.jpg" alt="Naruto">
+        <div class="card-body">
+          <h3>Naruto</h3>
+          <p>Konu: Bir ninja olma yolculuğu; aksiyon ve dostluk temaları.</p>
+          <div class="actions">
+            <a href="naruto.html" class="btn">Sayfaya Git</a>
+            <a href="#" class="btn ghost">İzle</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="https://cdn.myanimelist.net/images/anime/1286/99889.jpg" alt="Demon Slayer">
+        <div class="card-body">
+          <h3>Demon Slayer</h3>
+          <p>Konu: İblis avcısı Tanjiro'nun hikayesi; duygu ve aksiyon.</p>
+          <div class="actions">
+            <a href="demonslayer.html" class="btn">Sayfaya Git</a>
+            <a href="#" class="btn ghost">İzle</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="https://cdn.myanimelist.net/images/anime/12/76049.jpg" alt="One Punch Man">
+        <div class="card-body">
+          <h3>One Punch Man</h3>
+          <p>Konu: Saitama'nın tek yumrukla her şeyi bitirmesi; komedi ve aksiyon.</p>
+          <div class="actions">
+            <a href="onepunchman.html" class="btn">Sayfaya Git</a>
+            <a href="#" class="btn ghost">İzle</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section id="about" class="container about">
+      <h2>Hakkında</h2>
+      <p>Anitw — örnek statik anime tanıtım sitesi. Bu paket GitHub Pages, Netlify veya Vercel ile ücretsiz barındırılabilir.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Anitw</p>
+    </div>
+  </footer>
+</body>
+</html>
