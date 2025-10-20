@@ -1,200 +1,38 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Anitw — Anime Dünyası</title>
-  <meta name="description" content="Anitw — Koyu pastel temalı anime tanıtım sitesi. Naruto, Demon Slayer, One Punch Man örnek sayfaları." />
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Anitww - A brief description of the page">
+    <title>Anitww</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-  <header class="header">
-    <div class="container">
-      <div class="brand">
-        <div class="logo">Anitw</div>
-        <nav class="nav">
-          <a href="index.html">Ana Sayfa</a>
-          <a href="#popular">Popüler</a>
-          <a href="#about">Hakkında</a>
-        </nav>
-      </div>
-    </div>
-  </header>
-
-  <main>
-    <section class="hero">
-      <div class="container hero-inner">
-        <h1>Anime Dünyana Hoş Geldin</h1>
-        <p class="lead">Koyu pastel temalı Anitw — favori animelerini keşfet ve sayfalarını aç.</p>
-        <a class="cta" href="#popular">Popüler Animeler</a>
-      </div>
-    </section>
-
-    <section id="popular" class="container grid">
-      <article class="card">
-        <img src="https://cdn.myanimelist.net/images/anime/13/17405.jpg" alt="Naruto">
-        <div class="card-body">
-          <h3>Naruto</h3>
-          <p>Konu: Bir ninja olma yolculuğu; aksiyon ve dostluk temaları.</p>
-          <div class="actions">
-            <a href="naruto.html" class="btn">Sayfaya Git</a>
-            <a href="#" class="btn ghost">İzle</a>
-          </div>
-        </div>
-      </article>
-
-      <article class="card">
-        <img src="https://cdn.myanimelist.net/images/anime/1286/99889.jpg" alt="Demon Slayer">
-        <div class="card-body">
-          <h3>Demon Slayer</h3>
-          <p>Konu: İblis avcısı Tanjiro'nun hikayesi; duygu ve aksiyon.</p>
-          <div class="actions">
-            <a href="demonslayer.html" class="btn">Sayfaya Git</a>
-            <a href="#" class="btn ghost">İzle</a>
-          </div>
-        </div>
-      </article>
-
-      <article class="card">
-        <img src="https://cdn.myanimelist.net/images/anime/12/76049.jpg" alt="One Punch Man">
-        <div class="card-body">
-          <h3>One Punch Man</h3>
-          <p>Konu: Saitama'nın tek yumrukla her şeyi bitirmesi; komedi ve aksiyon.</p>
-          <div class="actions">
-            <a href="onepunchman.html" class="btn">Sayfaya Git</a>
-            <a href="#" class="btn ghost">İzle</a>
-          </div>
-        </div>
-      </article>
-    </section>
-
-    <section id="about" class="container about">
-      <h2>Hakkında</h2>
-      <p>Anitw — örnek statik anime tanıtım sitesi. Bu paket GitHub Pages, Netlify veya Vercel ile ücretsiz barındırılabilir.</p>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="container">
-      <p>© 2025 Anitw</p>
-    </div>
-  </footer><!doctype html>
-<html lang="tr">
-<head><meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1" /><title>Demon Slayer - Anitw</title><link rel="stylesheet" href="style.css" /></head>
-<body>
-<header class="header"><div class="container"><div class="brand"><div class="logo">Anitw</div><nav class="nav"><a href="index.html">Ana Sayfa</a></nav></div></div></header>
-<main class="container" style="padding:30px 20px;">
-  <h1>Demon Slayer</h1>
-  <img src="https://cdn.myanimelist.net/images/anime/1286/99889.jpg" alt="Demon Slayer" style="max-width:360px;width:100%;border-radius:12px;display:block;margin:14px 0;">
-  <p><strong>Konu:</strong> Tanjiro'nun kız kardeşini insan yapmak ve iblislerle savaşmak için verdiği mücadele.</p>
-  <p><strong>Tür:</strong> Aksiyon, Dram</p>
-  <p><strong>Bölüm Sayısı:</strong> 26</p>
-  <p><a class="btn" href="#">İzle (Örnek)</a></p>
-</main>
-<footer class="footer"><div class="container">© 2025 Anitw</div></footer>
-</body>
-</html>
-<!doctype html>
-<html lang="tr">
-<head><meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1" /><title>Naruto - Anitw</title><link rel="stylesheet" href="style.css" /></head>
-<body>
-<header class="header"><div class="container"><div class="brand"><div class="logo">Anitw</div><nav class="nav"><a href="index.html">Ana Sayfa</a></nav></div></div></header>
-<main class="container" style="padding:30px 20px;">
-  <h1>Naruto</h1>
-  <img src="https://cdn.myanimelist.net/images/anime/13/17405.jpg" alt="Naruto" style="max-width:360px;width:100%;border-radius:12px;display:block;margin:14px 0;">
-  <p><strong>Konu:</strong> Naruto'nın köyü ve arkadaşlık üzerine kurulu macerası.</p>
-  <p><strong>Tür:</strong> Aksiyon, Macera</p>
-  <p><strong>Bölüm Sayısı:</strong> 220</p>
-  <p><a class="btn" href="#">İzle (Örnek)</a></p>
-</main>
-<footer class="footer"><div class="container">© 2025 Anitw</div></footer>
-</body>
-</html><!doctype html>
-<html lang="tr">
-<head><meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1" /><title>One Punch Man - Anitw</title><link rel="stylesheet" href="style.css" /></head>
-<body>
-<header class="header"><div class="container"><div class="brand"><div class="logo">Anitw</div><nav class="nav"><a href="index.html">Ana Sayfa</a></nav></div></div></header>
-<main class="container" style="padding:30px 20px;">
-  <h1>One Punch Man</h1>
-  <img src="https://cdn.myanimelist.net/images/anime/12/76049.jpg" alt="One Punch Man" style="max-width:360px;width:100%;border-radius:12px;display:block;margin:14px 0;">
-  <p><strong>Konu:</strong> Saitama'nın hikayesi: her düşmanı tek yumrukla yenen kahraman.</p>
-  <p><strong>Tür:</strong> Aksiyon, Komedi</p>
-  <p><strong>Bölüm Sayısı:</strong> 24</p>
-  <p><a class="btn" href="#">İzle (Örnek)</a></p>
-</main>
-<footer class="footer"><div class="container">© 2025 Anitw</div></footer>
-</body>
-</html>
-
-Anitw - Koyu Pastel Tema (README)
-
-Dosyaları GitHub Pages üzerinden yayınlamak için:
-
-1) GitHub'da yeni veya mevcut 'anitw' reposu açın.
-2) Bu zip içindeki dosyaları (index.html, style.css, naruto.html, demonslayer.html, onepunchman.html) repoya yükleyin.
-   - GitHub ana sayfada "Add file" -> "Upload files" ile içindekileri sürükleyin.
-3) Yükledikten sonra repo -> Settings -> Pages bölümüne gidin.
-4) Source olarak 'main' branch ve '/' (root) seçin, Save yapın.
-5) Birkaç dakika sonra site şu adreste yayına alınır:
-   https://<kullaniciadiniz>.github.io/anitw/
-
-Not: Görseller dış kaynak (CDN) olarak kullanılmıştır, istersen images/ klasörüne kendi görsellerini koyup HTML'deki linkleri değiştir.
-"/* Koyu pastel tema - Anitw */
-:root{
-  --bg-1: #0b1020;
-  --panel: rgba(255,255,255,0.03);
-  --muted: #cbd5e1;
-  --accent: #b692ff; /* pastel purple */
-  --accent-2: #ff9ab3; /* pastel pink */
-  --glass: rgba(255,255,255,0.04);
-}
-*{box-sizing:border-box}
-body{
-  margin:0;
-  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
-  background: radial-gradient( circle at 10% 10%, rgba(86,98,255,0.08), transparent 15%),
-              radial-gradient( circle at 90% 90%, rgba(255,154,179,0.06), transparent 15%),
-              var(--bg-1);
-  color: #e6eef8;
-  -webkit-font-smoothing:antialiased;
-  -moz-osx-font-smoothing:grayscale;
-  min-height:100vh;
-}
-.container{max-width:1100px;margin:0 auto;padding:20px}
-.header{backdrop-filter: blur(6px); background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.2)); position:sticky; top:0; z-index:10;}
-.brand{display:flex;align-items:center;justify-content:space-between;gap:10px}
-.logo{
-  font-weight:800;
-  font-size:28px;
-  letter-spacing:1px;
-  padding:10px 14px;
-  border-radius:10px;
-  background: linear-gradient(90deg, var(--accent), var(--accent-2));
-  color:#071029;
-  box-shadow: 0 6px 18px rgba(182,146,255,0.12), inset 0 -6px 20px rgba(255,154,179,0.06);
-}
-.nav a{color:var(--muted);text-decoration:none;margin-left:18px;font-weight:600}
-.nav a:hover{color:var(--accent-2)}
-.hero{padding:60px 0;text-align:left}
-.hero-inner h1{font-size:42px;margin:0 0 8px}
-.lead{color:var(--muted);max-width:720px;margin-top:6px}
-.cta{display:inline-block;margin-top:14px;padding:10px 18px;border-radius:10px;background:linear-gradient(90deg,var(--accent),var(--accent-2));color:#071029;text-decoration:none;font-weight:700}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px;margin-top:24px}
-.card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.25));border-radius:14px;overflow:hidden;border:1px solid rgba(255,255,255,0.03)}
-.card img{width:100%;height:320px;object-fit:cover;display:block}
-.card-body{padding:14px}
-.card-body h3{margin:0 0 8px;color:var(--accent-2)}
-.card-body p{margin:0 0 12px;color:var(--muted)}
-.actions{display:flex;gap:10px}
-.btn{display:inline-block;padding:8px 12px;border-radius:8px;background:linear-gradient(90deg,var(--accent),var(--accent-2));color:#071029;text-decoration:none;font-weight:700}
-.btn.ghost{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--muted)}
-.about{margin-top:36px;color:var(--muted)}
-.footer{padding:20px 0;text-align:center;color:var(--muted);margin-top:40px;border-top:1px solid rgba(255,255,255,0.02)}
-@media(max-width:640px){
-  .hero-inner h1{font-size:28px}
-  .card img{height:200px}
-  .logo{font-size:20px}
-}
-
+    <header>
+        <h1>Welcome to Anitww</h1>
+    </header>
+    <main>
+        <p>This is a clean HTML5 skeleton for Anitww.</p>
+    </main>
+    <footer>
+        <p>&copy; 2023 Anitww. All rights reserved.</p>
+    </footer>
+    <script>
+        console.log('Anitww script loaded');
+    </script>
 </body>
 </html>
