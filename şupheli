@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anime Dünyası - Anitw</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(120deg, #1a1a1a, #262626);
+      color: #fff;
+    }
+
+    header {
+      background-color: #292929;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 24px;
+      font-weight: bold;
+      color: #ffb6c1;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+    }
+
+    /* Arama kutusu */
+    header div {
+      margin-top: 10px;
+    }
+
+    header input {
+      padding: 8px 12px;
+      border-radius: 8px;
+      border: none;
+      outline: none;
+      width: 220px;
+      background: #333;
+      color: #fff;
+      font-size: 14px;
+    }
+
+    header input::placeholder {
+      color: #bbb;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 30px auto;
+      padding: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .anime-card {
+      background-color: #222;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .anime-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 20px rgba(255,182,193,0.3);
+    }
+
+    .anime-card img {
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+    }
+
+    .anime-info {
+      padding: 15px;
+    }
+
+    .anime-info h3 {
+      margin: 0;
+      font-size: 20px;
+      color: #ffcc70;
+    }
+
+    .anime-info p {
+      margin-top: 8px;
+      font-size: 14px;
+      color: #ccc;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 14px;
+      background: #ff7b7b;
+      color: #fff;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background: #ff4d4d;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #111;
+      color: #777;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    🌸 Anime Dünyası - Anitw
+    <div>
+      <input type="text" placeholder="Anime ara...">
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="anime-card">
+      <img src="https://i.imgur.com/D4z1sYb.jpg" alt="Naruto">
+      <div class="anime-info">
+        <h3>Naruto</h3>
+        <p>Bir ninja olma yolculuğu, aksiyon ve dostluk temalarıyla dolu bir klasik.</p>
+        <a href="naruto.html" class="btn">Sayfaya Git</a>
+      </div>
+    </div>
+
+    <div class="anime-card">
+      <img src="https://i.imgur.com/n7nhpGe.jpg" alt="Demon Slayer">
+      <div class="anime-info">
+        <h3>Demon Slayer</h3>
+        <p>Karanlık bir dünyada umut, cesaret ve kardeşlik hikayesi.</p>
+        <a href="demonslayer.html" class="btn">Sayfaya Git</a>
+      </div>
+    </div>
+
+    <div class="anime-card">
+      <img src="https://i.imgur.com/xOQZKuw.jpg" alt="Attack on Titan">
+      <div class="anime-info">
+        <h3>Attack on Titan</h3>
+        <p>İnsanlığın devlere karşı verdiği destansı savaş.</p>
+        <a href="attackontitan.html" class="btn">Sayfaya Git</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>© 2025 Anitw | Anime Dünyana Hoş Geldin</footer>
+</body>
+</html>
